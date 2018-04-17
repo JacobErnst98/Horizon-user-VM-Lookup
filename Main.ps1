@@ -27,6 +27,11 @@ https://github.com/vmware/PowerCLI-Example-Scripts/tree/master/Modules/VMware.Hv
 #>
 
 #Connect to the server and prompt for creds with windows auth
+
+#################
+#  This user MUST have the Admin or ReadOnlyAdmin role on the viewserver
+#################
+
 Connect-HVServer viewserver.example.com
 
 #Get all vms
